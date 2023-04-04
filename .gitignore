@@ -1,0 +1,25 @@
+.idea/
+__pycache__/
+.env
+static
+media
+migrations
+!migrations/__init__.py
+.venv
+.DS_Store
+poetry.lock
+.coverage
+.pytest_cache
+site
+.cov_html
+
+# infrastructure
+.terraform
+*.lock.hcl
+*.*.hcl
+*.tfstate
+*.backup
+.gcp_creds.json
+.secrets.auto.tfvars
+.ssh
+

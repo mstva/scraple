@@ -38,7 +38,7 @@ EOF
 # Setup Django Project
 #-----------------------------
 
-PROJECT_DIR=apache-gcp-django
+PROJECT_DIR=nginx-gcp-django
 VENV_DIR=.venv
 
 if [ ! -d $PROJECT_DIR ]; then
